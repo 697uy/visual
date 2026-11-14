@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>Завдання</title>
+    <style>
+        .list1{
+            background: rgb(251, 149, 149);
+            padding: 20px 40px;
+        }
+        .list1 li{
+            background: rgb(226, 91, 91);
+            color: white;
+            margin: 9px;
+            padding: 10px;
+
+        }
+        .list1 span {
+            background: rgb(185, 4, 4);
+            padding: 10px;
+        }
+        .list2{
+             background: #dfdfdf;
+             width: 300px;
+             padding: 15px;
+             
+        }
+        .list2 li{
+            padding: 10px;
+            list-style: none;
+        }
+     .list2 li.not{
+         background: #82bfd2;
+     }
+     .list2 li.done{
+         background: #deebef;
+     }
+     .list2 li.not1{
+         background: #a6e0f2;
+     }
+     .list2 li.done {
+    background: #ddd;
+    text-decoration: line-through;}
+    
+    .list2 li::before {
+    content: "☐";
+    margin-right: 15px;}
+    .list2 li.done::before {
+    content: "☑";}
+
+.list2 li::after {
+    content: "x";
+    color: red;
+    margin-left: 20px;}
+    </style>
+</head>
+<body>
+
+
+
+<ol class="list1">
+    <li><span>Apple</span></li>
+    <li><span>Orange</span></li>
+    <li><span>Pineapple</span></li>
+    <li><span>Pear</span></li>
+    <li><span>Cherry</span></li>
+</ol>
+
+
+
+<ul class="list2">
+    <li class="not">Hit the gym</li>
+    <li class="done">Pay bills</li>
+    <li class="not">Meet John</li>
+    <li class="not1">Buy eggs</li>
+    <li class="done">Read a book</li>
+    <li class="not1">Organize office</li>
+    <li class="not">Eat dinner</li>
+    <li class="not1">Buy apples</li>
+    <li class="not">Meet George</li>
+    <li class="not1">Feet the cat</li>
+    <li class="done">Write a letter</li>
+    <li class="not1">Run 1 km</li>
+    
+</ul>
+
+</body>
+</html>
