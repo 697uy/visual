@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+}
+
+.container {
+    width: 500px;
+    background: #30313e;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+header {
+    height: 38px;
+    background: #29a9df;
+}
+
+.line {
+    height: 20px;
+    background: #414b5b;
+    margin-bottom: 15px;
+}
+
+.top div {
+    float: left;
+    width: calc((100% - 54px) / 4);
+    height: 108px;
+    background: #30313e;
+    border: 3px solid #414b5b;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+
+.top div:last-child {
+    margin-right: 0;
+}
+
+.middle {
+    clear: both;
+}
+
+.middle > div {
+    float: left;
+    height: 287px;
+    background: #30313e;
+    border: 3px solid #414b5b;
+}
+
+.middle > div:first-child {
+    width: 40%;
+    margin-right: 2.5%;
+}
+
+.middle > div:nth-child(2) {
+    width: 23%;
+    margin-right: 2.5%;
+}
+
+.middle > div:last-child {
+    width: 32%;
+    border: none;
+}
+
+.middle > div:last-child div {
+    height: 143px;
+    background: #30313e;
+    border: 3px solid #414b5b;
+    margin-bottom: 17px;
+}
+
+.bottom {
+    clear: both;
+    padding-top: 0;
+}
+
+.bottom div {
+    float: left;
+    height: 130px;
+    background: #29a9df;
+    border: 3px solid #414b5b;
+}
+
+.bottom div:first-child {
+    width: 40%;
+    margin-right: 2.5%;
+}
+
+.bottom div:last-child {
+    width: 57.5%;
+}
